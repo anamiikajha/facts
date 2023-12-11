@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Today I Learned, Udemy  HTML+CSS</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Coiny&family=Sono:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Today Julia Learned!</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="logo">
+          <img
+            src="https://www.freeiconspng.com/thumbs/idea-icon/idea-icon-4.png"
+            height="68"
+            width="68"
+            alt="Today Julia learned logo"
+          />
+          <h1>Today Julia learned:</h1>
+        </div>
+        <button class="btn btn-large btn-open">Share a fact</button>
+      </header>
+      <form class="fact-form hidden">
+        <input type="text" placeholder="Share a fact with world..." />
+        <span>200</span>
+        <input type="text" placeholder="Trustworthy sourse..." /><select>
+          <option value="">Choose category:</option>
+          <option value="technology">Technology</option>
+          <option value="health">Health</option>
+          <option value="history">History</option>
+        </select>
+        <button class="btn btn-large">Post</button>
+      </form>
+      <main class="main">
+        <aside>
+          <ul>
+            <li><button class="btn btn-all-categories">All</button></li>
+            <li class="category">
+              <button
+                style="background-color: #3b82f6"
+                class="btn btn-category"
+              >
+                Technology
+              </button>
+            </li>
+            <li class="category">
+              <button
+                style="background-color: #14b8a6"
+                class="btn btn-category"
+              >
+                Health
+              </button>
+            </li>
+          </ul>
+        </aside>
+        <section>
+          <ul class="facts-list">
+            <li class="fact">
+              <p>
+                Jan 24, 1848: James Marshall, a carpenter, finds gold in the
+                American River kicking off the California Gold Rush.
+                <a
+                  class="source"
+                  href="https://en.wikipedia.org/wiki/James_W._Marshall"
+                  target="_blank"
+                  >(Sourse)</a
+                >
+              </p>
+              <span class="tag" style="background-color: #f97316">history</span>
+              <div class="vote-buttons">
+                <button>👍 24</button>
+                <button>🤯 9</button>
+                <button>⛔️ 4</button>
+              </div>
+            </li>
+            <li class="fact">
+              <p>
+                Dermatillomania is a mental health condition where a person
+                compulsively picks or scratches their skin, causing injuries or
+                scarring.
+                <a
+                  class="source"
+                  href="https://my.clevelandclinic.org/health/diseases/22706-dermatillomania-skin-picking"
+                  target="_blank"
+                  >(Sourse)</a
+                >
+              </p>
+              <span class="tag" style="background-color: #14b8a6">health</span>
+              <div class="vote-buttons">
+                <button>👍 11</button>
+                <button>🤯 2</button>
+                <button>⛔️ 0</button>
+              </div>
+            </li>
+            <li class="fact">
+              <p>
+                Ammaar Reshi, a product design manager from the San Francisco
+                Bay Area, gathered illustrations from Midjourney, and took story
+                elements from a conversation he had with ChatGPT about a young
+                girl named Alice. He published a picture book, printed it, and
+                started selling it on Amazon.
+                <a
+                  class="source"
+                  href="https://time.com/6240569/ai-childrens-book-alice-and-sparkle-artists-unhappy/"
+                  target="_blank"
+                  >(Sourse)</a
+                >
+              </p>
+              <span class="tag" style="background-color: #3b82f6"
+                >technology</span
+              >
+              <div class="vote-buttons">
+                <button>👍 <strong>31</strong></button>
+                <button>🤯 <strong>4</strong></button>
+                <button>⛔️ <strong>2</strong></button>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </main>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
+<!-- partial -->
+  
+</body>
+</html>
